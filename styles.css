@@ -9,17 +9,37 @@ body {
 
 header {
     background-color: #D1EBFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 30px 0;
     margin-bottom: 30px;
+    position: relative;
 }
 
 header h1 {
     text-align: center;
     font-size: 32px;
     line-height: 1;
+    margin-bottom: 40px;
+}
+
+header a {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #1D1E22;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+header a:hover {
+    bottom: 12%;
 }
 
 main {
